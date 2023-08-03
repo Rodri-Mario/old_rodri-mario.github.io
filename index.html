@@ -9,74 +9,43 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body class="container">
-        <div class="row p-5">
-            <div id="Left-Content" class="col-sm-6 mb-5 h-50 ">
+        <div class="row p-2">
+            <div id="Left-Content" class="col-12 col-xl-6 my-5 h-50">
                 <div id="Intro-Lines">
-                    <h1>Mario Rodriguez</h1>
-                    <h2>Computer Science and Mathematics Major</h2>
-                    <p>Student at St. Olaf discovering the wonders of technology one byte at a time</p>
+                    <h1 class="display-5 fw-bold">Mario Rodriguez</h1>
+                    <h3>Computer Science and Mathematics Major at St. Olaf</h3>
+                    <p>Discovering the wonders of technology one byte at a time</p>
                 </div>
             </div>
 
-            <div id="Right-Content"class="col-sm-6">
-                <!--About Section-->
-                    <h3 id="about">About</h3>
+            <div id="Right-Content"class="col-12 col-xl-6">
+                <div id="About-Section">
+                    <h5 class="fw-semi-bold">About</h3>
                     <p>
-                        Thanks for visiting my site! My name is Mario and I'm an aspiring software designer with an interest in anything that beeps and boops. I'm currently a third year student at <a href="https://wp.stolaf.edu/">St. Olaf</a> pursuing degrees in computer science and mathematics. I hope to find a career that allows me to pursue my interests in technology, while also fully utilizing my creativity and ingenuity. 
+                        Thanks for visiting my site! My name is Mario and I'm an aspiring software designer with an interest in anything that beeps and boops. I'm currently a third year student at <a href="https://wp.stolaf.edu/">St. Olaf</a> pursuing my bachelors degree in computer science and mathematics. I hope to find a career that allows me to pursue my interests in technology, while also fully utilizing my creativity and ingenuity. 
                         <br>
                         In my free time, I settle down by reading a nice book, collecting and battling Pokémon, or playing board games with friends.
                     </p>
-                <!--Skills-->
-                    <h3 id="skills">Skills</h3>
-                    <h4 class="skill-title">Coding Languages I know</h4>
-                    <table class="skill-pills">
-                        <tr>
-                            <td>Java</td>
-                            <td>Python</td>
-                            <td>C</td>
-                        </tr>
-                        <tr>
-                            <td>C++</td>
-                            <td>C#</td>
-                            <td>Assembly</td>
-                        </tr>
-                    </table>
+                </div>
 
-                    <h4 class="skill-title">Tools and Platforms I've worked with</h4>
-                    <table class="skill-pills">
-                        <tr>
-                            <td>Git</td>
-                            <td>MySQL</td>
-                            <td>AWS</td>
-                            <td>Microsoft 365</td>
-                        </tr>
-                        <tr>
-                            <td>Linux</td>
-                            <td>Windows</td>
-                            <td>Raspberry Pi</td>
-                        </tr>
-                    </table>
-
-                    <p>Want to know more about me, here's my <a href="Resume.pdf">resume</a></p>
-
-                <!--Projects-->
+                <div id="Projects-Section">
                     <h3 id="projects">Projects</h3>
-                    <p>Coming Soon</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
-                    <p>Testing scroll</p>
+                    <div class="card project-tile">
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="5rem" height="5rem" fill="orange" class="bi bi-cone-striped card-img-top" viewBox="0 0 16 16">
+                            <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
+                          </svg>
+                        <div class="card-body">
+                            <h6 class="card-title">Coming Soon</h5>
+                            <p class="card-text">Please be patient as things are in the works right now. </p>
+                        </div>
+                    </div>
+                </div>
 
-                <!-- Credits-->
-                <p>
-                    Website takes inspiration from <a href="https://brittanychiang.com/">Brittany Chiang's</a> personal website. Coded in <a href="https://code.visualstudio.com/">Visual Studio Code</a> Hosted on <a href="https://pages.github.com/">Github Pages</a>. All text uses the <a href="https://rsms.me/inter/">Inter</a> typeface.
-                </p>
+                <div id="Credits-Section">
+                    <p>
+                        This website was made from scratch but was heavily inspired by <a href="https://brittanychiang.com/">Brittany Chiang's</a> personal website. Coded in <a href="https://code.visualstudio.com/">Visual Studio Code</a> and uses <a href="https://getbootstrap.com/">Bootstrap</a>. Hosted on <a href="https://pages.github.com/">Github Pages</a>. All text uses the <a href="https://rsms.me/inter/">Inter</a> typeface.
+                    </p>
+                </div>
             </div>
         </div>
         <script src="bootstrap.bundle.min.js"></script>

@@ -1,4 +1,8 @@
-:root { font-family: 'Inter', sans-serif; }
+:root { --bs-body-font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root { --bs-body-font-family: 'Inter var', sans-serif; }
+}
+
+.project-tile{
+  width:50%;
 }
