@@ -3,6 +3,14 @@
   :root { --bs-body-font-family: 'Inter var', sans-serif; }
 }
 
-.project-tile{
-  width:50%;
+.sticky-xl-top{
+  top: 3rem;
+}
+
+.project-card:hover{
+  background-color:aliceblue ;
+}
+
+.xp-card:hover{
+  background-color:aliceblue ;
 }
