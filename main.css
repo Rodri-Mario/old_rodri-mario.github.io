@@ -52,6 +52,10 @@ p a:hover{
   --bs-card-bg: #165040;
 }
 
+.card:hover{
+  background-color: #176650;
+}
+
 .card .card-title{
   color: #60be74;
 }
