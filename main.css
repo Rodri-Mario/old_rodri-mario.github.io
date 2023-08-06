@@ -3,14 +3,54 @@
   :root { --bs-body-font-family: 'Inter var', sans-serif; }
 }
 
+body{
+  background-color: #165040;
+  color: #CCE0D9;
+}
+
+h1, .section-header{
+  color: #A3F5EB;
+}
+
 .sticky-xl-top{
   top: 3rem;
 }
 
-.project-card:hover{
-  background-color:aliceblue ;
+.list-group{
+  --bs-list-group-color: #CCE0D9;
+  --bs-list-group-bg: #165040;
+  --bs-list-group-border-color: #CCE0D9;
+  --bs-list-group-action-color: var(--bs-secondary-color);
+  --bs-list-group-action-hover-color: #CCE0D9;
+  --bs-list-group-action-hover-bg: #7da791;
+  --bs-list-group-action-active-color: #CCE0D9;
+  --bs-list-group-action-active-bg: #165040;
+  --bs-list-group-disabled-color: var(--bs-secondary-color);
+  --bs-list-group-disabled-bg: #165040;
+  --bs-list-group-active-color: darkslategray;
+  --bs-list-group-active-bg: #e4fde1;
+  --bs-list-group-active-border-color: #e4fde1;
 }
 
-.xp-card:hover{
-  background-color:aliceblue ;
+a{
+  color: ghostwhite;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover{
+  color: #7ce4cf;
+}
+
+.card{
+  --bs-card-color: #CCE0D9;
+  --bs-card-bg: #165040;
+}
+
+.card .card-title{
+  color: #60be74;
+}
+
+.card .card-subtitle.text-body-secondary{
+  color: ghostwhite!important;;
 }
