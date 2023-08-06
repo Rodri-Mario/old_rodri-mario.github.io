@@ -42,6 +42,11 @@ p a:hover{
   color: #7ce4cf;
 }
 
+#resume-link:hover{
+  text-decoration: underline;
+  color: #7ce4cf;
+}
+
 .card{
   --bs-card-color: #CCE0D9;
   --bs-card-bg: #165040;
